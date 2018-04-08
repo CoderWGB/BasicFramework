@@ -17,11 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self hookPopGestureRecognizer];
-    UINavigationBar * navigationBar = [UINavigationBar appearance];
-    navigationBar.backgroundColor = [UIColor orangeColor];
-    navigationBar.barTintColor = [UIColor orangeColor];
-    navigationBar.translucent = NO;
-    navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize: 15]};
+//    UINavigationBar * navigationBar = [UINavigationBar appearance];
+//    navigationBar.backgroundColor = [UIColor orangeColor];
+//    navigationBar.barTintColor = [UIColor orangeColor];
+//    navigationBar.translucent = NO;
+//    navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize: 15]};
+
+
 }
 
 - (void)hookPopGestureRecognizer{

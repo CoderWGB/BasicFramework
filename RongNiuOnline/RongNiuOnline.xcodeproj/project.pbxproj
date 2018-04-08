@@ -55,6 +55,7 @@
 		CA1ED91420786CA70044BA1C /* RNOLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1ED91320786CA70044BA1C /* RNOLProgressHUD.m */; };
 		CA1ED91920786D600044BA1C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1ED91720786D600044BA1C /* MBProgressHUD+MJ.m */; };
 		CA1ED91A20786D600044BA1C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA1ED91820786D600044BA1C /* MBProgressHUD.bundle */; };
+		CADC9B8B207A410900630FA7 /* UINavigationBar+RNOLAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = CADC9B8A207A410900630FA7 /* UINavigationBar+RNOLAlpha.m */; };
 		FEB1205546AF3E8B1FC3A64E /* libPods-RongNiuOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D052EAF833AFD2D314F68FA /* libPods-RongNiuOnline.a */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +158,8 @@
 		CA1ED91620786D600044BA1C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		CA1ED91720786D600044BA1C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		CA1ED91820786D600044BA1C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		CADC9B89207A410900630FA7 /* UINavigationBar+RNOLAlpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+RNOLAlpha.h"; sourceTree = "<group>"; };
+		CADC9B8A207A410900630FA7 /* UINavigationBar+RNOLAlpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+RNOLAlpha.m"; sourceTree = "<group>"; };
 		DBA3795D0159AC77681CF659 /* Pods-RongNiuOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongNiuOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongNiuOnline/Pods-RongNiuOnline.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -443,6 +446,7 @@
 		18E8264C206E142600019ABA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CADC9B88207A40CE00630FA7 /* UINavigationBar */,
 				184407B0207358B500573FE1 /* NullSafe */,
 				1844079C207357AC00573FE1 /* Animation */,
 				184407A7207357AC00573FE1 /* NSAttributeString */,
@@ -589,6 +593,15 @@
 			path = "MBProgressHUD+MJ";
 			sourceTree = "<group>";
 		};
+		CADC9B88207A40CE00630FA7 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				CADC9B89207A410900630FA7 /* UINavigationBar+RNOLAlpha.h */,
+				CADC9B8A207A410900630FA7 /* UINavigationBar+RNOLAlpha.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -730,6 +743,7 @@
 				184407AB207357AC00573FE1 /* UIView+MDFAnimation.m in Sources */,
 				184407612072283600573FE1 /* UIView+RNOLExtension.m in Sources */,
 				184407832073542200573FE1 /* NSObject+RNOLExtension.m in Sources */,
+				CADC9B8B207A410900630FA7 /* UINavigationBar+RNOLAlpha.m in Sources */,
 				184407AE207357AC00573FE1 /* NSAttributedString+CalculateHeight.m in Sources */,
 				189ADC192072004A00986864 /* RNOLTabBarController.m in Sources */,
 				18E82642206E0FE300019ABA /* main.m in Sources */,

@@ -30,13 +30,13 @@
     RNOLHomePageViewController *homeVC = [[RNOLHomePageViewController alloc] init];
     [self createNavgationViewControllerWithSubViewController: homeVC title: @"首页" image:@"tabHomeNormal" selectedImage:@"tabHomeSelected"];
     
-    RNOLHomePageViewController *blogVC = [[RNOLHomePageViewController alloc] init];
+    UITableViewController *blogVC = [[UITableViewController alloc] init];
     [self createNavgationViewControllerWithSubViewController: blogVC title: @"理财" image:@"tabFinancialManagementNormal" selectedImage:@"tabFinancialManagementSelected"];
     
-    RNOLHomePageViewController *threeVC = [[RNOLHomePageViewController alloc] init];
+    UIViewController *threeVC = [[UIViewController alloc] init];
     [self createNavgationViewControllerWithSubViewController: threeVC title: @"基金" image:@"tabMoreNormal" selectedImage:@"tabMoreSelected"];
     
-    RNOLHomePageViewController *fourVC = [[RNOLHomePageViewController alloc] init];
+    UIViewController *fourVC = [[UIViewController alloc] init];
     [self createNavgationViewControllerWithSubViewController: fourVC title: @"我的" image:@"tabPropertyNormal" selectedImage:@"tabPropertySelected"];
 
 }

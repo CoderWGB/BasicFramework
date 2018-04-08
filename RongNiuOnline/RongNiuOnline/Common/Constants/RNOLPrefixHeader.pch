@@ -73,6 +73,7 @@
 #import "UILabel+Attribute.h"
 #import "UITextView+Placeholder.h"
 #import "UIBarButtonItem+WNXBarButtonItem.h"
+#import "UINavigationBar+RNOLAlpha.h"
 
 
 
